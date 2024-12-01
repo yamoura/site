@@ -1,0 +1,358 @@
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   +Aprovados
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="font-roboto bg-gray-100">
+  <!-- Header -->
+  <header class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-bold">
+     +Aprovados
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="#home">
+        Início
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#about">
+        Sobre
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#courses">
+        Cursos
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#pricing">
+        Preços
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#contact">
+        Contato
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <!-- Home Section -->
+  <section class="bg-yellow-300 text-center py-20" id="home">
+   <h2 class="text-4xl font-bold mb-4">
+    Passe no Vestibular com Quem Entende!
+   </h2>
+   <p class="text-xl mb-6">
+    Taxa de aprovação: 95%
+   </p>
+   <p class="text-lg mb-6">
+    "O curso +Aprovados me ajudou a conquistar meu sonho!" - João Silva
+   </p>
+   <a class="bg-blue-600 text-white py-2 px-4 rounded" href="#contact">
+    Comece seu futuro hoje!
+   </a>
+  </section>
+  <!-- About Section -->
+  <section class="container mx-auto py-20" id="about">
+   <h2 class="text-3xl font-bold text-center mb-10">
+    Sobre o Curso
+   </h2>
+   <div class="flex flex-wrap justify-center">
+    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+     <img alt="Imagem de professores experientes em uma sala de aula" height="200" src="https://storage.googleapis.com/a1aa/image/FrkjkaIBPSaoLtrlQ2lz7pQRjrxAgtDFfpJFpIqHuZW0hU7JA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mt-4">
+      História e Missão
+     </h3>
+     <p>
+      Com anos de experiência, nossa equipe é dedicada a ajudar você a passar no vestibular.
+     </p>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+     <img alt="Imagem de material didático exclusivo" height="200" src="https://storage.googleapis.com/a1aa/image/eP7v09dORC3EYSQB04PaC23MxUwl98LCa9Rj91ex6MopDp2TA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mt-4">
+      Diferenciais
+     </h3>
+     <ul class="list-disc list-inside">
+      <li>
+       Professores experientes
+      </li>
+      <li>
+       Material exclusivo
+      </li>
+      <li>
+       Aulas online e presenciais
+      </li>
+      <li>
+       Simulados regulares
+      </li>
+     </ul>
+    </div>
+   </div>
+  </section>
+  <!-- Courses Section -->
+  <section class="bg-gray-200 py-20" id="courses">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10">
+     Estrutura do Curso
+    </h2>
+    <div class="flex flex-wrap justify-center">
+     <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+      <img alt="Imagem representando a disciplina de Matemática" height="200" src="https://storage.googleapis.com/a1aa/image/waTJsvKO6xLKMt3YTEQipCpJlsr6zEnNaH1ewxEpJwN5hU7JA.jpg" width="300"/>
+      <h3 class="text-xl font-bold mt-4">
+       Matemática
+      </h3>
+      <p>
+       Conteúdo completo e atualizado para você dominar a matemática.
+      </p>
+     </div>
+     <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+      <img alt="Imagem de um livro de gramática e literatura" height="200" src="https://storage.googleapis.com/a1aa/image/waTJsvKO6xLKMt3YTEQipCpJlsr6zEnNaH1ewxEpJwN5hU7JA.jpg" width="300"/>
+      <h3 class="text-xl font-bold mt-4">
+       Português
+      </h3>
+      <p>
+       Aprenda gramática, literatura e redação com nossos especialistas.
+      </p>
+     </div>
+     <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+      <img alt="Imagem representando a disciplina de Ciências da Natureza" height="200" src="https://storage.googleapis.com/a1aa/image/g65UPCfwOIXNPCmwcbArs456s0hGm2vcjwAY3KaDoZg2hU7JA.jpg" width="300"/>
+      <h3 class="text-xl font-bold mt-4">
+       Ciências da Natureza
+      </h3>
+      <p>
+       Estude biologia, química e física com materiais exclusivos.
+      </p>
+     </div>
+    </div>
+    <div class="text-center mt-10">
+     <a class="bg-blue-600 text-white py-2 px-4 rounded" href="#">
+      Baixar amostra grátis
+     </a>
+    </div>
+   </div>
+  </section>
+  <!-- Simulados Section -->
+  <section class="container mx-auto py-20" id="simulados">
+   <h2 class="text-3xl font-bold text-center mb-10">
+    Simulados e Ferramentas Online
+   </h2>
+   <div class="flex flex-wrap justify-center">
+    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+     <img alt="Imagem de uma plataforma de simulados interativos" height="200" src="https://storage.googleapis.com/a1aa/image/hBQMeis9fFhRIk0Wwu01MMIDXSRaoAYLLyXLMBu0NCRsDp2TA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mt-4">
+      Simulados Interativos
+     </h3>
+     <p>
+      Plataforma com simulados interativos, ranking e correção detalhada.
+     </p>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+     <img alt="Imagem de uma calculadora de notas" height="200" src="https://storage.googleapis.com/a1aa/image/BQQKznyC2PooCV3fN8LEVuSbxdteyYIoBvNaFEgct4W1Dp2TA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mt-4">
+      Calculadora de Notas
+     </h3>
+     <p>
+      Calcule suas notas com base nos principais vestibulares (Enem, Fuvest, Unicamp, etc.).
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Pricing Section -->
+  <section class="container mx-auto py-20" id="pricing">
+   <h2 class="text-3xl font-bold text-center mb-10">
+    Preços e Planos
+   </h2>
+   <div class="flex flex-wrap justify-center">
+    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+     <div class="bg-white p-6 rounded shadow">
+      <h3 class="text-xl font-bold mb-4">
+       Plano Mensal
+      </h3>
+      <p class="text-2xl font-bold mb-4">
+       R$ 99,90
+      </p>
+      <ul class="list-disc list-inside mb-4">
+       <li>
+        Acesso a todos os cursos
+       </li>
+       <li>
+        Simulados ilimitados
+       </li>
+       <li>
+        Material didático completo
+       </li>
+      </ul>
+      <a class="bg-blue-600 text-white py-2 px-4 rounded" href="#contact">
+       Assine agora
+      </a>
+     </div>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+     <div class="bg-white p-6 rounded shadow">
+      <h3 class="text-xl font-bold mb-4">
+       Plano Semestral
+      </h3>
+      <p class="text-2xl font-bold mb-4">
+       R$ 499,90
+      </p>
+      <ul class="list-disc list-inside mb-4">
+       <li>
+        Acesso a todos os cursos
+       </li>
+       <li>
+        Simulados ilimitados
+       </li>
+       <li>
+        Material didático completo
+       </li>
+       <li>
+        Desconto de 10%
+       </li>
+      </ul>
+      <a class="bg-blue-600 text-white py-2 px-4 rounded" href="#contact">
+       Assine agora
+      </a>
+     </div>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+     <div class="bg-white p-6 rounded shadow">
+      <h3 class="text-xl font-bold mb-4">
+       Plano Anual
+      </h3>
+      <p class="text-2xl font-bold mb-4">
+       R$ 899,90
+      </p>
+      <ul class="list-disc list-inside mb-4">
+       <li>
+        Acesso a todos os cursos
+       </li>
+       <li>
+        Simulados ilimitados
+       </li>
+       <li>
+        Material didático completo
+       </li>
+       <li>
+        Desconto de 20%
+       </li>
+      </ul>
+      <a class="bg-blue-600 text-white py-2 px-4 rounded" href="#contact">
+       Assine agora
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Blog Section -->
+  <section class="bg-gray-200 py-20" id="blog">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10">
+     Blog ou Conteúdo Educativo
+    </h2>
+    <div class="flex flex-wrap justify-center">
+     <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+      <img alt="Imagem de um artigo sobre como montar um plano de estudos" height="200" src="https://storage.googleapis.com/a1aa/image/v9CL75cpHLq6KhUchsecd2gOM8cnGv1if8nSNcdH77LxDp2TA.jpg" width="300"/>
+      <h3 class="text-xl font-bold mt-4">
+       Como montar um plano de estudos?
+      </h3>
+      <p>
+       Dicas essenciais para organizar seu tempo e estudar de forma eficiente.
+      </p>
+     </div>
+     <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+      <h3 class="text-xl font-bold mt-4">
+       Estratégias para ir bem na redação
+      </h3>
+      <p>
+       Aprenda técnicas para escrever uma redação nota 1000.
+      </p>
+     </div>
+     <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+      <img alt="Imagem de um vídeo de um professor explicando temas-chave" height="200" src="https://storage.googleapis.com/a1aa/image/BPCYyF3XBJ5AP5uDzFBpIUUsNZ4wKzbJRqgNQKZrs4k7Qq9E.jpg" width="300"/>
+      <h3 class="text-xl font-bold mt-4">
+       Vídeos de professores
+      </h3>
+      <p>
+       Assista a vídeos com explicações detalhadas sobre temas-chave.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="container mx-auto py-20" id="contact">
+   <h2 class="text-3xl font-bold text-center mb-10">
+    Área de Contato e Matrícula
+   </h2>
+   <div class="flex flex-wrap justify-center">
+    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+     <form class="bg-white p-6 rounded shadow">
+      <h3 class="text-xl font-bold mb-4">
+       Formulário de Contato
+      </h3>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="name">
+        Nome
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded" id="name" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="email">
+        Email
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded" id="email" type="email"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="message">
+        Mensagem
+       </label>
+       <textarea class="w-full p-2 border border-gray-300 rounded" id="message"></textarea>
+      </div>
+      <button class="bg-blue-600 text-white py-2 px-4 rounded" type="submit">
+       Enviar
+      </button>
+     </form>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+     <div class="bg-white p-6 rounded shadow">
+      <h3 class="text-xl font-bold mb-4">
+       Atendimento Rápido
+      </h3>
+      <p>
+       Entre em contato pelo WhatsApp ou use nosso chatbot para atendimento rápido.
+      </p>
+      <a class="bg-green-500 text-white py-2 px-4 rounded inline-block mt-4" href="https://wa.me/1234567890">
+       <i class="fab fa-whatsapp">
+       </i>
+       WhatsApp
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-4">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2024 +Aprovados. Todos os direitos reservados.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
